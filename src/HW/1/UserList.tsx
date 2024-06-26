@@ -1,7 +1,7 @@
 
 type AddressType = {
-    street: string; // ПОДПРАВЛЯЕМ any
-    city: string; // ПОДПРАВЛЯЕМ any
+    street: string;
+    city: string;
 };
 
 type UserType = {
@@ -12,7 +12,7 @@ type UserType = {
 };
 
 type UserListPropsType = {
-    users: Array<UserType>; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+    users: Array<UserType>;
 };
 
 export const UserList = (props: UserListPropsType) => {
